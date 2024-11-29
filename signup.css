@@ -1,0 +1,71 @@
+form{
+    border: 1px solid #ccc;
+} 
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-weight: 50%;
+}
+
+.container{
+    padding: 16px;
+}
+
+
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+input[type="text"], 
+input[type="password"]
+{
+    width: 100%;
+    display: inline-block;
+    margin: 5px, 0, 22px, 0;
+    padding: 15px;
+    border:none;
+    background-color: #f1f1f1;
+}
+
+input[type=txet]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}   
+
+
+button:hover{
+    opacity: 1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    width: 50%;
+}
+
+.cancelbtn, .signupbtn{
+    float: left;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+
+
